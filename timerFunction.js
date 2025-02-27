@@ -16,15 +16,3 @@ setImmediate(() => {
 console.log("End");
 
 
-// async function fetchDataAsync() {
-//   try {
-//     const response = await fetch(
-//       "https://jsonplaceholder.typicode.com/todos/1"
-//     );
-//     console.log(response);
-//   } catch (error) {
-//     console.error("Error:", error);
-//   }
-// }
-
-// fetchDataAsync()
