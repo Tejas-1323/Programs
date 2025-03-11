@@ -13,6 +13,9 @@ setInterval(() => {
 setImmediate(() => {
   console.log("Execute Immediate");
 });
+
+process.nextTick(() => {
+  console.log("hello i am execute before the i/o task or times");
+});
+
 console.log("End");
-
-
