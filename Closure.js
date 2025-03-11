@@ -5,8 +5,8 @@ function outer() {
    function inner() {
      console.log(x)
   }
-  return inner
+  inner()
 }
-
-const myData = outer();
-myData()
+outer()
+// const myData = outer();
+// myData()
