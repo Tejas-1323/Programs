@@ -1,6 +1,7 @@
 // shallo copy
 
 const { response } = require("express")
+const { format } = require("mysql")
 
 const obj1 = {
   name: "tejas",
@@ -244,15 +245,182 @@ obj4.data.age = 44
 // const mydat = array.forEach((num)=> console.log(num*3)
 // )
 
-// HOF
-function sum(a, b, callback) {
-  let result = a + b
-   callback(result)
+// // HOF
+// function sum(a, b, callback) {
+//   let result = a + b
+//    callback(result)
 
-}
+// }
 
-function callback(result) {
-  console.log(result);
-}
+// function callback(result) {
+//   console.log(result);
+// }
 
-sum(10,10,callback)
+// sum(10,10,callback)
+
+
+
+// const [a, b] = [10, 10]
+
+// const {name,age} = {name:"tejas",age:28}
+
+// console.log(a,b,name,age);
+
+
+// function data(a) {
+//   return function (b) {
+//       return a + b;
+
+//   }
+// }
+
+// console.log(data(10)(10));
+
+
+// const object1 = {
+//   name: "tejas",
+//   data: function () {
+//   console.log("hello");
+
+// }}
+
+
+// const obj9 = Object.create(object1)
+// obj9.name = "raj"
+
+// obj9.myfun = function(){
+// console.log("my name is tejas");
+
+// }
+
+// console.log(obj9.name);
+// obj9.myfun()
+// obj9.data()
+
+// object1.data()
+
+
+// console.log(data);
+
+// var data = 10
+// myfun()
+// function myfun() {
+//   console.log("hello");
+
+// }
+
+// data()
+// const data = () => {
+//   console.log("hello");
+
+// }
+
+
+// const data={
+//   name: "tejas",
+//   hello: function () {
+//     console.log(`i am ${this.name} from chopdat`);
+
+//   }
+// }
+
+
+// data.hello()
+
+
+// const apple = ['tejas', 'lalit', 'suraj', 'ashraf', 'deepak', 'ramu']
+
+// const data = apple.slice(2,5)
+
+// console.log(data);
+
+// console.log(apple)
+
+
+// call applay bind
+
+
+
+
+// const person = { name: "tejas" }
+
+// function hello(city) {
+//  console.log(`i am ${this.name} from ${city}`);
+
+// }
+
+// hello.call(person, 'pune')
+
+// hello.apply(person,['nashik'])
+
+// const data = hello.bind(person,'chopda')
+// data()
+
+
+// interface Person{
+//   firstname: string,
+//   hello: ()=> void
+// }
+
+// const newobj: Person={
+//   firstname: "hiii",
+//   hello: () => {
+//     console.log("hi");
+
+//   }
+// }
+
+// newobj.Person()
+
+
+
+// select emp.name,product.name
+// from emp
+// left join product
+// on emp.eid=product.eid
+
+// SELECT t1.column, t2.column
+// FROM table1 t1
+// LEFT JOIN table2 t2
+// ON t1.common_column = t2.common_column;
+
+// db.customer.aggregate([{
+
+//   $lookup: {
+//     from: 'product',
+//     localField: 'customerid',
+//     foreignField: 'customerid',
+//     as:'resulut'
+//   }
+
+// }])
+
+// select MAX(salary) as second_highest_salary from employee where salary <
+// (select MAX(salary) from employee)
+
+// SELECT MAX(salary) AS second_highest_salary
+// FROM employees
+// WHERE salary < (SELECT MAX(salary) FROM employees);
+
+
+
+
+
+
+// const newobj = {
+//   name: "tejas",
+//   hello: function () {
+//     console.log(`hello i am tejas`);
+
+//   }
+// }
+
+
+// const obj = Object.create(newobj)
+//  obj. name= "jayesh"
+// obj.data = function () { console.log("i am jayesh");}
+
+// obj.data()
+// obj.hello()
+// console.log(obj.name);
+
