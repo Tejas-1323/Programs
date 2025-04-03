@@ -4,7 +4,7 @@
   "description": "Basic Programs",
   "main": "arraySubSet.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon revise.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

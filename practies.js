@@ -346,7 +346,6 @@ obj4.data.age = 44
 
 // function hello(city) {
 //  console.log(`i am ${this.name} from ${city}`);
-
 // }
 
 // hello.call(person, 'pune')
@@ -370,7 +369,7 @@ obj4.data.age = 44
 //   }
 // }
 
-// newobj.Person()
+// newobj.hello(); // ✅ Correct function call
 
 
 
@@ -423,4 +422,3 @@ obj4.data.age = 44
 // obj.data()
 // obj.hello()
 // console.log(obj.name);
-
