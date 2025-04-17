@@ -402,3 +402,13 @@ app.listen(port, () => {
 // setImmediate(() => {
 //   console.log('i am setImidiate function');
 // })
+
+
+
+function sum(a,b) {
+  let data = a + b
+  console.log(data);
+  
+}
+
+sum(10,10)
