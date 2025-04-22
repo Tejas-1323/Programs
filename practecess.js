@@ -71,9 +71,9 @@
 
 // const counter = createCounter();
 
-// counter(); // 👉 Current count: 1
-// counter(); // 👉 Current count: 2
-// counter(); // 👉 Current count: 3
+// counter(); //  Current count: 1
+// counter(); //  Current count: 2
+// counter(); //  Current count: 3
 
 
 // promise
