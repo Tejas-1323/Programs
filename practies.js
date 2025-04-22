@@ -259,14 +259,14 @@ obj4.data.age = 44
 // sum(10,10,callback)
 
 
-
+// Destruchuring
 // const [a, b] = [10, 10]
 
 // const {name,age} = {name:"tejas",age:28}
 
 // console.log(a,b,name,age);
 
-
+// curring
 // function data(a) {
 //   return function (b) {
 //       return a + b;
