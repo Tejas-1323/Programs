@@ -2,6 +2,7 @@
   "name": "programs",
   "version": "1.0.0",
   "description": "Basic Programs",
+  "type": "module",
   "main": "arraySubSet.js",
   "scripts": {
     "start": "nodemon revise.js",
